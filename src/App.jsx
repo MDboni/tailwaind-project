@@ -1,14 +1,16 @@
 
 
 import './App.css'
+import Header from './component/Header'
+import Layout from './Layout/Layout'
 
 function App() {
 
 
   return (
-   <div> 
-<p class="text-9xl">1stesfadfff</p>
-   </div>
+   <Layout>
+     <Header/>
+   </Layout>
   )
 }
 
